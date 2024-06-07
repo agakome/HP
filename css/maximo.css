@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    text-rendering: optimizeLegibility;
+}
+
+ body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ }
+
+ button{
+    margin: 10em auto;
+    cursor: pointer;
+    padding: 2em;
+    min-width: 10em;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1em;
+    background-color: #000000;
+    border: .25em solid rgb(218, 174, 110);
+ }
+
+ .on{
+    background-color: rgb(171, 253, 184);
+ }
+ 
+ .off{
+    background-color: #ffb0b0;
+ }
+
+/* Persolanizar o botão */
+button
+{
+    margin: 3em 2em;
+    padding: 1em;
+    cursor: pointer;
+    width: 10em;
+    font-size: 2em;
+    font-weight: bold;
+    background-color: rgb(240, 255, 158);
+    border-radius: .5em solid rgb(193, 158, 245);
+    color: rgb(0, 0, 0);
+
+}
